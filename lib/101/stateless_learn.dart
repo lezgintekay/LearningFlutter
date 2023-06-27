@@ -13,11 +13,11 @@ class StatelessLearn extends StatelessWidget {
         children:  [
           const TitleTextWidget(text: "test1"),
           const TitleTextWidget(text: "test2"),
-           _emptyBox(),
+          _emptyBox(),
           const TitleTextWidget(text: "test3"),
           const TitleTextWidget(text: "test4"),
           const TitleTextWidget(text: "test5"), 
-           _emptyBox(),
+          _emptyBox(),
           const _CustomContainer(),
           _emptyBox()
         ],
