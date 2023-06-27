@@ -7,10 +7,7 @@ class AppBarView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text(
-            tittle,
-            style: const TextStyle(color: Colors.red),
-          ),
+          title: Text(tittle),
           automaticallyImplyLeading: false,
           leading: IconButton(
             onPressed: () {},
