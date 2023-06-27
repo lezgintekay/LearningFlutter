@@ -19,3 +19,4 @@ class AppBarView extends StatelessWidget {
     );
   }
 }
+
