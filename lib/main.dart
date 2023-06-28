@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_application_2/101/image_learn.dart';
+import 'package:flutter_application_2/101/custom_widget_learn.dart';
+
 
 
 
@@ -14,8 +15,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Flutter Demo",
-      theme: ThemeData.dark(),
-      home: const ImageLearn(),
+      theme: ThemeData.dark().copyWith(
+        appBarTheme: const AppBarTheme(
+        centerTitle: true,
+        systemOverlayStyle: SystemUiOverlayStyle.light,
+        elevation: 0,
+      )),
+      home: const CustomWidgetLearn(),
       
     );
   }
