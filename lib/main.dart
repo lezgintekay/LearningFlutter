@@ -14,13 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Flutter Demo",
-      theme: ThemeData.dark().copyWith(
-          appBarTheme: const AppBarTheme(
-        centerTitle: true,
-        systemOverlayStyle: SystemUiOverlayStyle.light,
-        backgroundColor: Colors.red,
-        elevation: 0,
-      )),
+      theme: ThemeData.dark(),
       home: const ImageLearn(),
       
     );
