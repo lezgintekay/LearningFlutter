@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_application_2/101/indicator_learn.dart';
+import 'package:flutter_application_2/101/list_tile_learn.dart';
 
 
 
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         systemOverlayStyle: SystemUiOverlayStyle.light,
         elevation: 0,
       )),
-      home: IndicatorLearn(),
+      home: const ListTileLearn(),
       
     );
   }
