@@ -11,8 +11,12 @@ class ImageLearn extends StatelessWidget {
         children: [Center(  child: SizedBox(
             height: 100,
             width: 100, 
-            child: Image.asset("assets/resim2.png"),),
-          )
+            child: Image.asset("assets/resim2.png"),), 
+          
+          ),
+          Image.network("https://w7.pngwing.com/pngs/537/866/png-transparent-flutter-hd-logo.png",
+          errorBuilder: (context, error, stracktrace) => const Icon(Icons.error),)
+          
         ],
       )
     );
