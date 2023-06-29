@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_application_2/101/page_view_learn.dart';
+import 'package:flutter_application_2/lifecycle_learn.dart';
 
 
 
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         systemOverlayStyle: SystemUiOverlayStyle.light,
         elevation: 0,
       )),
-      home: const PageViewLearn(),
+      home: const StatefullLifecycleLearn(message: "Test12",),
       
     );
   }
